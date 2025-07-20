@@ -1,0 +1,12 @@
+# Импорт библиотек
+import pandas as pd # для работы с данными
+import seaborn as sns # для визуализации данных
+import matplotlib.pyplot as plt # предоставлю гибкие возможности для визуализации
+from sklearn.model_selection import train_test_split # для разделения набора данных на обучающую и тестовую выборки
+from sklearn.preprocessing import StandardScaler # для стандартизации признаков
+from sklearn.tree import DecisionTreeClassifier # реализует алгоритм классификации на основе деревьев
+from sklearn.linear_model import LogisticRegression # реализует логистическую регрессию
+from sklearn.metrics import classification_report, confusion_matrix # для оценки качества моделей классификации
+from sklearn.impute import SimpleImputer #  для обработки пропущенных значений в данных
+import time # для добавления таймера перед шагами
+import sys # для выходы из программы
