@@ -1,0 +1,4 @@
+# Если файл запускается непосредственно, а не импортируется
+if __name__ == '__main__':
+    assistant = DataAssistant()
+    assistant.run()
